@@ -1,0 +1,39 @@
+{
+  "product": [
+    {
+      "name": "",
+      "description": "",
+      "price": "",
+      "pictures": "",
+      "type": "",
+      "id": 1
+    },
+    {
+      "name": "fsdfsd",
+      "description": "fdsd",
+      "price": null,
+      "pictures": "",
+      "type": "sfsdf",
+      "picture": "fss",
+      "id": 2
+    },
+    {
+      "name": "fs",
+      "description": "dfsfsdfds",
+      "price": 2332,
+      "pictures": "",
+      "type": "fddf",
+      "picture": "sdfsdfs",
+      "id": 3
+    },
+    {
+      "name": "fsd",
+      "description": "fsdf",
+      "price": 323,
+      "pictures": "",
+      "type": "dfsdf",
+      "picture": "sdf",
+      "id": 4
+    }
+  ]
+}

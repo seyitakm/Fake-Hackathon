@@ -1,7 +1,12 @@
+import ProductContextProvider from "./contexts/ProductContextProvider";
 import MainRoutes from "./MainRoutes";
 
 function App() {
-  return <MainRoutes />;
+  return (
+    <ProductContextProvider>
+      <MainRoutes />
+    </ProductContextProvider>
+  );
 }
 
 export default App;
