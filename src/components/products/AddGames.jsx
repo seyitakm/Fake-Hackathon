@@ -11,7 +11,7 @@ const AddGames = () => {
     name: "",
     description: "",
     price: "",
-    pictures: "",
+    picture: "",
     type: "",
   });
 
@@ -108,7 +108,7 @@ const AddGames = () => {
         size="large"
         onClick={() => {
           addGames(product);
-          navigate("/");
+          navigate("/products");
         }}
       >
         ADD GAME

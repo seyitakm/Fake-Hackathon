@@ -1,8 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import AdminPage from "./pages/AdminPage";
+import EditGamesPage from "./pages/EditGamesPage";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
+import ProductsPage from "./pages/ProductsPage";
 import SignInPage from "./pages/SignInPage";
 import SignUpPage from "./pages/SignUpPage";
 
@@ -32,6 +34,16 @@ const MainRoutes = () => {
       link: "/*",
       element: <NotFoundPage />,
       id: 5,
+    },
+    {
+      link: "/products",
+      element: <ProductsPage />,
+      id: 6,
+    },
+    {
+      link: "/editgames/:id",
+      element: <EditGamesPage />,
+      id: 7,
     },
   ];
   return (

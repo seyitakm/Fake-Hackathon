@@ -43,9 +43,29 @@ const ProductContextProvider = ({ children }) => {
     });
   };
 
+  const deleteGames = async (id) => {
+    await axios.delete(`${JSON_API_PRODUCTS}/${id}`);
+    getGames();
+  };
+
+  const getGamesDetails = async (id) => {
+    const { data } = await axios(`${JSON_API_PRODUCTS}/${id}`);
+    dispatch({
+      type: ACTIONS.GET_PRODUCT_DETAILS,
+      payload: data,
+    });
+  };
+
+  const saveEditedGames = async (newGames) => {
+    await axios.patch(`${JSON_API_PRODUCTS}/${newGames.id}`, newGames);
+    getGames();
+  };
   const values = {
     getGames,
     addGames,
+    deleteGames,
+    getGamesDetails,
+    saveEditedGames,
 
     products: state.products,
     productDetails: state.productDetails,
