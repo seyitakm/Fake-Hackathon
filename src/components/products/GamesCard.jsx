@@ -11,7 +11,7 @@ export default function GamesCard({ item }) {
     <div className="card">
       <img className="card--img" src={item.picture} alt="" />
       <h3>{item.name}</h3>
-      <div className="card--descr">{item.price}</div>
+      <div className="card--descr">${item.price}</div>
       <div className="buttons">
         <button>More</button>
         <button onClick={() => navigate(`/editgames/${item.id}`)}>Edit</button>
