@@ -219,3 +219,13 @@ footer {
 .terms a {
   color: #7783a0;
 }
+
+
+
+.btn404 {
+  border: 1px solid white !important;
+  border-radius: 8px !important;
+}
+.btn404:hover {
+  background-color: white !important;
+}

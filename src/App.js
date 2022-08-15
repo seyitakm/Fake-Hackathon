@@ -7,7 +7,6 @@ function App() {
   return (
     <ProductContextProvider>
       <Navbar />
-      <Cards />
       <MainRoutes />
     </ProductContextProvider>
   );
