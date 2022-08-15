@@ -11,8 +11,15 @@ const GamesList = () => {
     getGames();
   }, []);
   return (
-    <Box>
-      <Box>
+    <Box sx={{ display: "flex", justifyContent: "center" }}>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-around",
+          width: "80vw",
+          flexWrap: "wrap",
+        }}
+      >
         {products ? (
           products.map((item) => <GamesCard item={item} key={item.id} />)
         ) : (
