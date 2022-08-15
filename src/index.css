@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 * {
   padding: 0;
@@ -8,8 +8,7 @@
   box-sizing: border-box;
 }
 
-
-body{
+body {
   background-image: url("./assets/gays/BG.png");
   background-size: cover;
 }
@@ -31,11 +30,11 @@ body{
   transition: 0.5s;
 }
 
-.appbar a:hover{
-  color:#0088ff;
+.appbar a:hover {
+  color: #0088ff;
 }
 
-.signup{
+.signup {
   border: 1px solid white;
   width: 70px;
   text-align: center;
@@ -70,13 +69,13 @@ body{
   justify-content: space-around;
 }
 
-.cards{
+.cards {
   display: flex;
   justify-content: center;
   padding-top: 40px;
 }
 
-.cards__inner{
+.cards__inner {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
@@ -87,8 +86,8 @@ body{
 .card {
   width: 190px;
   height: 300px;
-  border: 1px solid black; 
-  border-radius: 10px; 
+  border: 1px solid black;
+  border-radius: 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -99,17 +98,17 @@ body{
   margin-bottom: 5px;
 }
 
-.card h3{
-  font-family: 'Play', sans-serif;
+.card h3 {
+  font-family: "Play", sans-serif;
 }
 
-.card--descr{
+.card--descr {
   width: 98%;
   height: auto;
   border: 1px solid aqua;
 }
 
-.card--img{
+.card--img {
   width: 98%;
   height: 180px;
   object-fit: cover;
@@ -118,7 +117,7 @@ body{
   border-radius: 15px;
 }
 
-.card button{
+.card button {
   background-color: #0088ff;
   color: white;
   border: 1px solid white;
@@ -129,14 +128,94 @@ body{
   transition: 0.4s;
 }
 
-
-.card button:hover{
+.card button:hover {
   box-shadow: none;
 }
 
-
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-around;
   width: 90%;
+
+  font-family: open sans;
+  transition: ease 0.5s;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+footer {
+  background: #1e3161;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: #2f4374 0 10px 20px 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+.heading {
+  margin-bottom: 15px;
+}
+.col1 {
+  flex: 1;
+}
+.col2 {
+  flex: 2;
+}
+.col3 {
+  flex: 1;
+}
+
+.col1 a {
+  display: inline-block;
+  padding: 7px 0;
+  font-size: 14px;
+}
+.col1 a:hover {
+  color: #58bed5;
+}
+
+.col2 .languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+}
+.col2 a {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+.col2 a:hover {
+  background: #58bed5;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+.col3 ion-icon {
+  font-size: 30px;
+}
+.social a:hover ion-icon {
+  color: #5ac1d8;
+}
+
+.terms {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+.terms a {
+  color: #7783a0;
 }
