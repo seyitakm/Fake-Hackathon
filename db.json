@@ -41,7 +41,7 @@
       "id": 5
     },
     {
-      "name": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+      "name": "Grand Theft Auto: The...",
       "description": "Play the genre-defining classics of the original Grand Theft Auto Trilogy: Grand Theft Auto III, Grand Theft Auto: Vice City, and Grand Theft Auto: San Andreas updated for a new generation, now with across-the-board enhancements including brilliant new lighting and environmental upgrades, with high-resolution textures, increased draw distances, Grand Theft Auto V-style controls and targeting, and much more, bringing these beloved worlds to life with all new levels of detail.",
       "price": 59,
       "picture": "https://m.media-amazon.com/images/I/81ulcOeeRtL._SY606_.jpg",
@@ -49,7 +49,7 @@
       "id": 6
     },
     {
-      "name": "Call of Duty®: Vanguard — Cross-Gen Bundle",
+      "name": "Call of Duty®: Vanguard...",
       "description": "Rise on every front: Dogfight over the Pacific, airdrop over France, defend Stalingrad with a sniper’s precision and blast through advancing forces in North Africa. The Call of Duty® franchise returns with Call of Duty®: Vanguard, developed by Sledgehammer Games, where players will be immersed in visceral WWII combat on an unprecedented global scale.",
       "price": 69.99,
       "picture": "https://s1.gaming-cdn.com/images/products/9384/orig-fallback-v1/call-of-duty-vanguard-cross-gen-bundle-xbox-one-xbox-series-x-s-cross-gen-bundle-xbox-one-xbox-series-x-s-game-microsoft-store-europe-cover.jpg?v=1650624694",
@@ -79,6 +79,86 @@
       "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/v53I7qHvpWSQsL2oLxrM46NV.png",
       "type": "",
       "id": 10
+    },
+    {
+      "name": "Marvel's Spider-Man: Miles Morales",
+      "description": "In the latest adventure in the Marvel’s Spider-Man universe, teenager Miles Morales is adjusting to his new home while following in the footsteps of his mentor, Peter Parker, as a new Spider-Man.",
+      "price": 29.99,
+      "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png",
+      "type": "",
+      "id": 11
+    },
+    {
+      "name": "Saints Row",
+      "description": "The US President must save the Earth from alien overlord Zinyak using an arsenal of superpowers and strange weapons in the wildest open world game ever.",
+      "price": 9.99,
+      "picture": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_SaintsRow_DeepSilverVolition_S2_1200x1600-d95f6c911a764ad44302f021a3174a24",
+      "type": "",
+      "id": 12
+    },
+    {
+      "name": "Horizon Forbidden West™...",
+      "description": "Horizon Forbidden West is one of Sony's flagship games for 2022. This sequel to the smash hit Horizon Zero Dawn is here, and fans of Aloy and her robo-dino-destroying exploits have another epic action RPG to enjoy. In this Horizon Forbidden West guide, we're going to answer some common questions about Horizon Forbidden West so you can stay informed about the game.",
+      "price": 59.99,
+      "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3102/xt3epBb704GnnJqcQhQBdeZH.png",
+      "type": "",
+      "id": 13
+    },
+    {
+      "name": "Marvel's Guardians of the Galaxy...",
+      "description": "Pre-order Marvel's Guardians of the Galaxy to get the Guardians of the Galaxy Costume Pack early. You will immediately unlock one costume for each of the Guardians of the Galaxy - we have reflected the iconic images of comic book characters in them.",
+      "price": 10.59,
+      "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202106/0311/ycYwMaDKZ8nFZd3E8EJz9zfZ.png",
+      "type": "",
+      "id": 14
+    },
+    {
+      "name": "Elden Ring Deluxe Edition",
+      "description": "THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+      "price": 34.99,
+      "picture": "https://images.g2a.com/625x350/1x1x0/elden-ring-deluxe-edition-pc-steam-key-europe/e6264f00e03b41e590293964",
+      "type": "",
+      "id": 15
+    },
+    {
+      "name": "Star Wars Jedi: Fallen Order™",
+      "description": "A galaxy-spanning adventure awaits in Star Wars Jedi: Fallen Order, a 3rd person action-adventure title from Respawn. An abandoned Padawan must complete his training, develop new powerful Force abilities, and master the art of the lightsaber - all while staying one step ahead of the Empire.",
+      "price": "39.99",
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/3/3e/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Star_Wars_Jedi_Fallen_Order.jpg",
+      "type": "",
+      "id": 16
+    },
+    {
+      "name": "eFootball™ 2022",
+      "description": "From 'PES' to 'eFootball™' A new era of digital football has begun!",
+      "price": "free",
+      "picture": "https://s2.gaming-cdn.com/images/products/7318/orig-fallback-v1/efootball-2022-pc-game-steam-cover.jpg?v=1632993144",
+      "type": "",
+      "id": 17
+    },
+    {
+      "name": "Tiny Tina's Wonderlands…",
+      "description": "Create your own hero from multiple classes and shoot, slash, slash for loot to be taken from incredible monsters and found deep in the dungeons to stop the merciless Dragon Lord. Everyone is welcome here, so join the party, put on your adventure boots, and show off your Chaotic Cool character!",
+      "price": 89.99,
+      "picture": "https://cdn1.epicgames.com/offer/c37115918ccc4969a57b6b1bdc28af4a/TTWL_ChaoticTall_1200x1600-0e2c252dca04ffb429b2891a95c5cea2",
+      "type": "",
+      "id": 18
+    },
+    {
+      "name": "Sifu",
+      "description": "Sifu is the new game from Sloclap, the independent studio behind Absolver. A third-person action game with intense hand-to-hand combat that puts you in control of a young kung fu student who has chosen the path of revenge.",
+      "price": 49.99,
+      "picture": "https://img.championat.com/c/1350x759/news/big/c/y/poigrali-v-sifu_16396184942077707613.jpg",
+      "type": "",
+      "id": 19
+    },
+    {
+      "name": "Resident Evil Village",
+      "description": "Experience survival horror like never before in the 8th major installment in the Resident Evil franchise - Resident Evil Village. With detailed graphics, intense first-person action and masterful storytelling, the terror has never felt more realistic.",
+      "price": 39.99,
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/2/24/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Resident_Evil_Village.jpg",
+      "type": "",
+      "id": 20
     }
   ]
 }
