@@ -13,7 +13,6 @@ export default function GamesCard({ item }) {
       <h3>{item.name}</h3>
       <div className="card--descr">${item.price}</div>
       <div className="buttons">
-        <button>More</button>
         <button onClick={() => navigate(`/editgames/${item.id}`)}>Edit</button>
         <button onClick={() => deleteGames(item.id)}>Delete</button>
       </div>

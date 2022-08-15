@@ -103,7 +103,7 @@ body {
 }
 
 .card button {
-  background-color: #0088ff;
+  background-color: #0c0c0d;
   color: white;
   border: 1px solid white;
   box-shadow: black 1px 1px;
@@ -114,7 +114,8 @@ body {
 }
 
 .card button:hover {
-  box-shadow: none;
+  background-color: white;
+  color: black;
 }
 
 .buttons {
