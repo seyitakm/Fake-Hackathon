@@ -7,6 +7,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import ProductsPage from "./pages/ProductsPage";
 import SignInPage from "./pages/SignInPage";
 import SignUpPage from "./pages/SignUpPage";
+import StorePage from "./pages/StorePage";
 
 const MainRoutes = () => {
   const ALL_ROUTES = [
@@ -44,6 +45,11 @@ const MainRoutes = () => {
       link: "/editgames/:id",
       element: <EditGamesPage />,
       id: 7,
+    },
+    {
+      link: "/store",
+      element: <StorePage />,
+      id: 8,
     },
   ];
   return (

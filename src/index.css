@@ -1,3 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(29, 28, 28);
+  background-size: cover;
+}
+
+.appbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  color: white;
+  position: relative;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.appbar a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.appbar a:hover {
+  color: #0088ff;
+}
+
+.signup {
+  border: 1px solid white;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.appbar video {
+  position: absolute;
+  z-index: -1;
+  height: inherit;
+  width: 100%;
+  object-fit: cover;
+}
+
+.inner__appbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.inner__right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+
+.auth {
+  display: flex;
+  width: 120px;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.cards__inner {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  height: auto;
+}
+
+.card {
+  width: 190px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card h3 {
+  font-family: "Play", sans-serif;
+}
+
+.card--descr {
+  width: 98%;
+  height: auto;
+  border: 1px solid aqua;
+}
+
+.card--img {
+  width: 98%;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid aqua;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.card button {
+  background-color: #0088ff;
+  color: white;
+  border: 1px solid white;
+  box-shadow: black 1px 1px;
+  border-radius: 3px;
+  width: 50px;
+  height: 22px;
+  transition: 0.4s;
+}
+
+.card button:hover {
+  box-shadow: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+
+  font-family: open sans;
+  transition: ease 0.5s;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+footer {
+  background: #1e3161;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: #2f4374 0 10px 20px 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+.heading {
+  margin-bottom: 15px;
+}
+.col1 {
+  flex: 1;
+}
+.col2 {
+  flex: 2;
+}
+.col3 {
+  flex: 1;
+}
+
+.col1 a {
+  display: inline-block;
+  padding: 7px 0;
+  font-size: 14px;
+}
+.col1 a:hover {
+  color: #58bed5;
+}
+
+.col2 .languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+}
+.col2 a {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+.col2 a:hover {
+  background: #58bed5;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+.col3 ion-icon {
+  font-size: 30px;
+}
+.social a:hover ion-icon {
+  color: #5ac1d8;
+}
+
+.terms {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+.terms a {
+  color: #7783a0;
+}
+
 .btn404 {
   border: 1px solid white !important;
   border-radius: 8px !important;

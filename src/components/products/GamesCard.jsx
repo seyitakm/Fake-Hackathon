@@ -1,10 +1,4 @@
 import * as React from "react";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 import { useProducts } from "../../contexts/ProductContextProvider";
 import { useNavigate } from "react-router-dom";
 
@@ -14,32 +8,21 @@ export default function GamesCard({ item }) {
   const navigate = useNavigate();
   console.log(item);
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="140"
-        image={item.picture}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {item.name}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {item.description}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          ${item.price}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small" onClick={() => navigate(`/editgames/${item.id}`)}>
-          Edit
-        </Button>
-        <Button size="small" onClick={() => deleteGames(item.id)}>
-          Delete
-        </Button>
-      </CardActions>
-    </Card>
+    <div className="cards">
+      <div className="cards__inner">
+        <div className="card">
+          <img className="card--img" src={item.picture} alt="" />
+          <h3>{item.name}</h3>
+          <div className="card--descr">{item.price}</div>
+          <div className="buttons">
+            <button>More</button>
+            <button onClick={() => navigate(`/editgames/${item.id}`)}>
+              Edit
+            </button>
+            <button onClick={() => deleteGames(item.id)}>Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
