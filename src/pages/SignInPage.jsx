@@ -117,7 +117,7 @@ export default function SignInPage() {
           Sign In
         </button>
         <div className="auth-another">
-          <p className="auth-another__hint">Or Sign Up</p>
+          <p className="auth-another__hint">Don't have an account?</p>
           <button onClick={() => navigate("/signup")} className="auth-link">
             SIGN UP
           </button>

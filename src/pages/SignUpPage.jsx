@@ -7,6 +7,8 @@ import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContextProvider";
 import "../styles/Auth.css";
+import { Input } from "@mui/material";
+import Countries from "../components/Countries";
 
 function Copyright(props) {
   return (
@@ -72,7 +74,7 @@ export default function SignUpPage() {
           </div>
         </div>
         <div className="auth__input-block">
-          <p>Password</p>
+          <p>Create password</p>
           <div className="auth-input__form">
             <label htmlFor="password">
               <LockOutlinedIcon
@@ -95,18 +97,42 @@ export default function SignUpPage() {
             />
           </div>
         </div>
+        <div className="auth__input-block">
+          <p>Retype password</p>
+          <div className="auth-input__form">
+            <label htmlFor="password">
+              <LockOutlinedIcon
+                id="userpasswordInp"
+                className="auth-input__icon"
+                sx={{ color: changeColorLock, transition: "all 100ms" }}
+              />
+            </label>
+            <input
+              placeholder="Retype password"
+              name="password"
+              label="Password"
+              type="password"
+              id="password"
+              autoComplete="current-password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              onFocus={() => setChangeColorLock("#8C2CEF")}
+              onBlur={() => setChangeColorLock("#adadad")}
+            />
+          </div>
+        </div>
+        <Countries />
         {error ? (
           <Typography sx={{ color: "red", m: 1 }}>{error}</Typography>
         ) : null}
         <button
           className="auth-btn"
-          // onClick={() => handleLogin(email, password)}
           onClick={() => handleRegister(email, password)}
         >
           Sign Up
         </button>
         <div className="auth-another">
-          <p className="auth-another__hint">Or Sign In</p>
+          <p className="auth-another__hint">Already Sign up? </p>
           <button onClick={() => navigate("/signin")} className="auth-link">
             SIGN IN
           </button>

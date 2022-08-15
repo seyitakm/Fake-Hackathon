@@ -33,86 +33,88 @@ const AddGames = () => {
     }
   };
   return (
-    <Box
-      sx={{
-        width: "40vw",
-        margin: "0 auto",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Typography variant="h6" sx={{ m: 2 }}>
-        Add new game card
-      </Typography>
-      <TextField
-        sx={{ m: 1 }}
-        color="secondary"
-        id="standard-basic"
-        label="Name"
-        variant="outlined"
-        fullWidth
-        name="name"
-        onChange={handleInp}
-      />
-      <TextField
-        sx={{ m: 1 }}
-        color="secondary"
-        id="standard-basic"
-        label="Description"
-        variant="outlined"
-        fullWidth
-        name="description"
-        onChange={handleInp}
-      />
-      <TextField
-        sx={{ m: 1 }}
-        color="secondary"
-        id="standard-basic"
-        label="Price"
-        variant="outlined"
-        fullWidth
-        name="price"
-        onChange={handleInp}
-      />
-      <TextField
-        sx={{ m: 1 }}
-        color="secondary"
-        id="standard-basic"
-        label="Picture"
-        variant="outlined"
-        fullWidth
-        name="picture"
-        onChange={handleInp}
-      />
-      <TextField
-        sx={{ m: 1 }}
-        color="secondary"
-        id="standard-basic"
-        label="Type"
-        variant="outlined"
-        fullWidth
-        name="type"
-        onChange={handleInp}
-      />
-      <Button
+    <Box sx={{ backgroundColor: "white", height: "90vh" }}>
+      <Box
         sx={{
-          m: 1,
-          bgcolor: "#8C2CEF",
-          color: "#fff",
-          "&:hover": { bgcolor: "#8125DC" },
-        }}
-        variant="outlined"
-        fullWidth
-        size="large"
-        onClick={() => {
-          addGames(product);
-          navigate("/products");
+          width: "40vw",
+          margin: "0 auto",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
-        ADD GAME
-      </Button>
+        <Typography variant="h6" sx={{ m: 2 }}>
+          Add new game card
+        </Typography>
+        <TextField
+          sx={{ m: 1 }}
+          color="secondary"
+          id="standard-basic"
+          label="Name"
+          variant="outlined"
+          fullWidth
+          name="name"
+          onChange={handleInp}
+        />
+        <TextField
+          sx={{ m: 1 }}
+          color="secondary"
+          id="standard-basic"
+          label="Description"
+          variant="outlined"
+          fullWidth
+          name="description"
+          onChange={handleInp}
+        />
+        <TextField
+          sx={{ m: 1 }}
+          color="secondary"
+          id="standard-basic"
+          label="Price"
+          variant="outlined"
+          fullWidth
+          name="price"
+          onChange={handleInp}
+        />
+        <TextField
+          sx={{ m: 1 }}
+          color="secondary"
+          id="standard-basic"
+          label="Picture"
+          variant="outlined"
+          fullWidth
+          name="picture"
+          onChange={handleInp}
+        />
+        <TextField
+          sx={{ m: 1 }}
+          color="secondary"
+          id="standard-basic"
+          label="Type"
+          variant="outlined"
+          fullWidth
+          name="type"
+          onChange={handleInp}
+        />
+        <Button
+          sx={{
+            m: 1,
+            bgcolor: "#8C2CEF",
+            color: "#fff",
+            "&:hover": { bgcolor: "#8125DC" },
+          }}
+          variant="outlined"
+          fullWidth
+          size="large"
+          onClick={() => {
+            addGames(product);
+            navigate("/products");
+          }}
+        >
+          ADD GAME
+        </Button>
+      </Box>
     </Box>
   );
 };

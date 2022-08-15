@@ -91,14 +91,12 @@ body {
 .card--descr {
   width: 98%;
   height: auto;
-  border: 1px solid aqua;
 }
 
 .card--img {
   width: 98%;
   height: 180px;
   object-fit: cover;
-  border: 1px solid aqua;
   overflow: hidden;
   border-radius: 15px;
 }

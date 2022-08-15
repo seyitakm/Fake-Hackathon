@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import AdminPage from "./pages/AdminPage";
+import ContactUsPage from "./pages/ContactUsPage";
 import EditGamesPage from "./pages/EditGamesPage";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -44,6 +45,11 @@ const MainRoutes = () => {
       link: "/editgames/:id",
       element: <EditGamesPage />,
       id: 7,
+    },
+    {
+      link: "/contacts",
+      element: <ContactUsPage />,
+      id: 8,
     },
   ];
   return (
