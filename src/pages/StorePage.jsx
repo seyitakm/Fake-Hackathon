@@ -1,12 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer";
 
-const HomePage = () => {
+const StorePage = () => {
   return (
     <div>
+      <h1 style={{ color: "white" }}> StorePage</h1>
       <Footer />
     </div>
   );
 };
 
-export default HomePage;
+export default StorePage;

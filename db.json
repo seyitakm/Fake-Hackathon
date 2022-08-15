@@ -1,3 +1,36 @@
 {
-  "product": []
+  "product": [
+    {
+      "name": "dsfasfd",
+      "description": "asdfsdfwdflsadfkljdlfkjslfjdalskfjalskjflkajglkajsdg;flkj;lakfja;lskjg;lasjdgsad",
+      "price": 32,
+      "picture": "fasdf",
+      "type": "dfsdf",
+      "id": 1
+    },
+    {
+      "name": "sdf",
+      "description": "dsfsdf",
+      "price": null,
+      "picture": "dfsfsdf",
+      "type": "dfsdfs",
+      "id": 2
+    },
+    {
+      "name": "adfadf",
+      "description": "ldakf;dskljflaksjdf;lkjasl;kfj;aksjdf;lksja;dlfkjaslfjlaksjdf;lasjdkfljas;ldfkja;lkdjf;laskj;kj",
+      "price": null,
+      "picture": "gdsg",
+      "type": "gdfg",
+      "id": 3
+    },
+    {
+      "name": "sdfsdf",
+      "description": "fsdfsdffsdfsdf",
+      "price": null,
+      "picture": "sdfsdfs",
+      "type": "sdfsdfsd",
+      "id": 4
+    }
+  ]
 }

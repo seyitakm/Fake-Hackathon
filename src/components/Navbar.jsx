@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="appbar">
       <div className="inner__appbar">
         <div className="inner__logo">
-          <h1>NIGHT-CITY</h1>
+          <h1 onClick={() => navigate("/")}>NIGHT-CITY</h1>
         </div>
         <div className="inner__right">
           <RouterLink to="/latest">Latest</RouterLink>
@@ -19,7 +19,9 @@ const Navbar = () => {
         </div>
         <div className="auth">
           <RouterLink to="/signin">Sign up</RouterLink>
-          <RouterLink className="signup" to="/signup">Sign in</RouterLink>
+          <RouterLink className="signup" to="/signup">
+            Sign in
+          </RouterLink>
         </div>
       </div>
       <video src={gayporn} loop muted autoPlay></video>

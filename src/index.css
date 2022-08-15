@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +7,7 @@
 }
 
 body {
-  background-image: url("./assets/gays/BG.png");
+  background-color: rgb(29, 28, 28);
   background-size: cover;
 }
 
@@ -219,8 +217,6 @@ footer {
 .terms a {
   color: #7783a0;
 }
-
-
 
 .btn404 {
   border: 1px solid white !important;
