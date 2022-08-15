@@ -1,18 +1,12 @@
 import * as React from "react";
-import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
-import CssBaseline from "@mui/material/CssBaseline";
-import TextField from "@mui/material/TextField";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
 import Link from "@mui/material/Link";
-import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { Link as RouterLink } from "react-router-dom";
+import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import { Link as RouterLink, useNavigate } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContextProvider";
+import "../styles/Auth.css";
 
 function Copyright(props) {
   return (
@@ -35,110 +29,89 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignUpPage() {
-  //   const handleSubmit = (event) => {
-  //     event.preventDefault();
-  //     const data = new FormData(event.currentTarget);
-  //     console.log({
-  //       email: data.get("email"),
-  //       password: data.get("password"),
-  //     });
-  //   };
+  const { register, error } = useAuth();
+  const navigate = useNavigate();
+
+  const [email, setEmail] = React.useState("");
+  const [password, setPassword] = React.useState("");
+
+  const [changeColorProfile, setChangeColorProfile] = React.useState("#adadad");
+  const [changeColorLock, setChangeColorLock] = React.useState("#adadad");
+
+  function handleRegister(email, password) {
+    register(email, password);
+  }
 
   return (
-    <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="xs">
-        <CssBaseline />
-        <Box
-          sx={{
-            marginTop: 8,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
+    <div className="auth-main">
+      <div className="auth-block">
+        <h3 className="auth-header">Sign Up</h3>
+        <div className="auth__input-block">
+          <p>Username</p>
+          <div className="auth-input__form">
+            <label htmlFor="email">
+              <PersonOutlineIcon
+                id="usernameInp"
+                className="auth-input__icon"
+                sx={{ color: changeColorProfile, transition: "all 100ms" }}
+              />
+            </label>
+            <input
+              placeholder="Type username"
+              className="auth-input"
+              type="text"
+              id="email"
+              name="email"
+              autoComplete="email"
+              autoFocus
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              onFocus={() => setChangeColorProfile("#8C2CEF")}
+              onBlur={() => setChangeColorProfile("#adadad")}
+            />
+          </div>
+        </div>
+        <div className="auth__input-block">
+          <p>Password</p>
+          <div className="auth-input__form">
+            <label htmlFor="password">
+              <LockOutlinedIcon
+                id="userpasswordInp"
+                className="auth-input__icon"
+                sx={{ color: changeColorLock, transition: "all 100ms" }}
+              />
+            </label>
+            <input
+              placeholder="Type password"
+              name="password"
+              label="Password"
+              type="password"
+              id="password"
+              autoComplete="current-password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              onFocus={() => setChangeColorLock("#8C2CEF")}
+              onBlur={() => setChangeColorLock("#adadad")}
+            />
+          </div>
+        </div>
+        {error ? (
+          <Typography sx={{ color: "red", m: 1 }}>{error}</Typography>
+        ) : null}
+        <button
+          className="auth-btn"
+          // onClick={() => handleLogin(email, password)}
+          onClick={() => handleRegister(email, password)}
         >
-          <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
-            <LockOutlinedIcon />
-          </Avatar>
-          <Typography component="h1" variant="h5">
-            Sign up
-          </Typography>
-          <Box
-            component="form"
-            noValidate
-            // onSubmit={handleSubmit}
-            sx={{ mt: 3 }}
-          >
-            <Grid container spacing={2}>
-              <Grid item xs={12} sm={6}>
-                <TextField
-                  autoComplete="given-name"
-                  name="firstName"
-                  required
-                  fullWidth
-                  id="firstName"
-                  label="First Name"
-                  autoFocus
-                />
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <TextField
-                  required
-                  fullWidth
-                  id="lastName"
-                  label="Last Name"
-                  name="lastName"
-                  autoComplete="family-name"
-                />
-              </Grid>
-              <Grid item xs={12}>
-                <TextField
-                  required
-                  fullWidth
-                  id="email"
-                  label="Email Address"
-                  name="email"
-                  autoComplete="email"
-                />
-              </Grid>
-              <Grid item xs={12}>
-                <TextField
-                  required
-                  fullWidth
-                  name="password"
-                  label="Password"
-                  type="password"
-                  id="password"
-                  autoComplete="new-password"
-                />
-              </Grid>
-              <Grid item xs={12}>
-                <FormControlLabel
-                  control={
-                    <Checkbox value="allowExtraEmails" color="primary" />
-                  }
-                  label="I want to receive inspiration, marketing promotions and updates via email."
-                />
-              </Grid>
-            </Grid>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              sx={{ mt: 3, mb: 2 }}
-            >
-              Sign Up
-            </Button>
-            <Grid container justifyContent="flex-end">
-              <Grid item>
-                <RouterLink to="/signin" variant="body2">
-                  Already have an account? Sign in
-                </RouterLink>
-              </Grid>
-            </Grid>
-          </Box>
-        </Box>
-        <Copyright sx={{ mt: 5 }} />
-      </Container>
-    </ThemeProvider>
+          Sign Up
+        </button>
+        <div className="auth-another">
+          <p className="auth-another__hint">Or Sign In</p>
+          <button onClick={() => navigate("/signin")} className="auth-link">
+            SIGN IN
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }

@@ -52,7 +52,7 @@ const NotFoundPage = () => {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        backgroundColor: "black",
+        backgroundColor: "rgb(29, 28, 28)",
       }}
     >
       <ThemeProvider theme={theme}>

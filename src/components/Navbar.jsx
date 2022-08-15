@@ -17,8 +17,8 @@ const Navbar = () => {
           <RouterLink to="/contacts">Contacts</RouterLink>
         </div>
         <div className="auth">
-          <RouterLink to="/signin">Sign up</RouterLink>
-          <RouterLink className="signup" to="/signup">
+          <RouterLink to="/signup">Sign up</RouterLink>
+          <RouterLink className="signin" to="/signin">
             Sign in
           </RouterLink>
         </div>
