@@ -5,7 +5,7 @@
       "description": "Elden Ring is an action role-playing game played in a third person perspective, with gameplay focusing on combat and exploration; it features elements similar to those found in other games developed by FromSoftware, such as the Souls series, Bloodborne, and Sekiro: Shadows Die Twice.",
       "price": 69,
       "picture": "https://ftw.usatoday.com/wp-content/uploads/sites/90/2022/02/Elden_Ring_Keyart45-1.jpg?w=1000&h=600&crop=1",
-      "type": "",
+      "type": "rpg",
       "id": 1
     },
     {
@@ -13,7 +13,7 @@
       "description": "Gran Turismo 7 (commonly abbreviated as GT7) is a racing video game developed by Polyphony Digital and published by Sony Interactive Entertainment. It is the eighth major release, the fourteenth game overall in the Gran Turismo video game series, the second game to be released on the PlayStation 4 and the first on PlayStation 5.[1] The game was released on the 4th of March, 2022, on both consoles.",
       "price": 15.99,
       "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yZ7dpmjtHr1olhutHT57IFRh.png",
-      "type": "",
+      "type": "sport",
       "id": 2
     },
     {
@@ -111,14 +111,6 @@
       "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202106/0311/ycYwMaDKZ8nFZd3E8EJz9zfZ.png",
       "type": "",
       "id": 14
-    },
-    {
-      "name": "Elden Ring Deluxe Edition",
-      "description": "THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
-      "price": 34.99,
-      "picture": "https://images.g2a.com/625x350/1x1x0/elden-ring-deluxe-edition-pc-steam-key-europe/e6264f00e03b41e590293964",
-      "type": "",
-      "id": 15
     },
     {
       "name": "Star Wars Jedi: Fallen Order™",
