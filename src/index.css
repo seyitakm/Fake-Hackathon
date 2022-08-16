@@ -72,6 +72,8 @@ body {
   justify-content: space-around;
 }
 
+/* GAMES CARDS START */
+
 .card {
   width: 190px;
   height: 300px;
@@ -135,15 +137,17 @@ body {
   color: white;
   list-style-type: none;
 }
+/* GAMES CARDS END */
+/* FOOTER  START */
 
 footer {
-  background: #e3e5ea;
+  background-color: rgb(29, 28, 28);
   width: 100%;
   max-width: 80%;
   margin: 0 auto;
   margin-top: 50px;
   border-radius: 15px;
-  box-shadow: #33353c 0 10px 20px 5px;
+  /* box-shadow: #3e4970 0 10px 20px 5px; */
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -157,6 +161,7 @@ footer {
 }
 .heading {
   margin-bottom: 15px;
+  color: white;
 }
 .col1 {
   flex: 1;
@@ -173,25 +178,26 @@ footer {
   padding: 7px 0;
   font-size: 14px;
   text-decoration: none;
+  color: white;
 }
 .col1 a:hover {
-  color: #58bed5;
+  color: #0088ff;
 }
 
 .col2 .languages {
+  color: white;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   font-size: 14px;
 }
-.col2 a {
-  display: inline-block;
-  padding: 3px 5px;
-  border-radius: 3px;
+.languages a {
+  color: white;
   text-decoration: none;
+  padding: 3px 5px;
 }
-.col2 a:hover {
-  background: #58bed5;
+.languages a:hover {
+  color: #0088ff;
 }
 
 .social {
@@ -214,7 +220,8 @@ footer {
   color: #7783a0;
   text-decoration: none;
 }
-
+/* FOOTER  END */
+/* 404 PAGE */
 .btn404 {
   border: 1px solid white !important;
   border-radius: 8px !important;
@@ -222,7 +229,38 @@ footer {
 .btn404:hover {
   background-color: white !important;
 }
+/* 404 PAGE */
+
+/* PAYMENT CSS START  */
+.paymentContainer {
+  background-color: rgb(126, 230, 239);
+  border: 1px dotted black;
+  border-radius: 15px;
+  width: 30vw;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardImg {
+  width: 98%;
+  height: 180px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.paymenth3 {
+  color: white;
+}
+.paymentDescr {
+  color: white;
+}
+.paymentPrice {
+  color: white;
+}
 .paymentF1 {
 }
 .paymentF2 {
 }
+/* PAYMENT CSS END  */
