@@ -5,6 +5,7 @@ import ContactUsPage from "./pages/ContactUsPage";
 import EditGamesPage from "./pages/EditGamesPage";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
+import PaymentPage from "./pages/PaymentPage";
 import ProductsPage from "./pages/ProductsPage";
 import SignInPage from "./pages/SignInPage";
 import SignUpPage from "./pages/SignUpPage";
@@ -49,6 +50,11 @@ const MainRoutes = () => {
     {
       link: "/contacts",
       element: <ContactUsPage />,
+      id: 8,
+    },
+    {
+      link: "/payment/:id",
+      element: <PaymentPage />,
       id: 8,
     },
   ];

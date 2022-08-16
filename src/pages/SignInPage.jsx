@@ -48,7 +48,6 @@ export default function SignInPage() {
 
   const [changeColorProfile, setChangeColorProfile] = useState("#adadad");
   const [changeColorLock, setChangeColorLock] = useState("#adadad");
-  // console.log(email, password);
 
   function handleLogin(email, password) {
     login(email, password);

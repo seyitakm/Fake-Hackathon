@@ -1,21 +1,33 @@
 import * as React from "react";
 import { useProducts } from "../../contexts/ProductContextProvider";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../contexts/AuthContextProvider";
 
 export default function GamesCard({ item }) {
   const { deleteGames } = useProducts();
-
   const navigate = useNavigate();
-  console.log(item);
+
+  const user = localStorage.getItem("username");
+  console.log(user);
+
   return (
     <div className="card">
       <img className="card--img" src={item.picture} alt="" />
       <h3>{item.name}</h3>
       <div className="card--descr">${item.price}</div>
-      <div className="buttons">
-        <button onClick={() => navigate(`/editgames/${item.id}`)}>Edit</button>
-        <button onClick={() => deleteGames(item.id)}>Delete</button>
-      </div>
+      {user === "admin@admin.com" ? (
+        <div className="buttons">
+          <button onClick={() => navigate(`/editgames/${item.id}`)}>
+            Edit
+          </button>
+          <button onClick={() => deleteGames(item.id)}>Delete</button>
+        </div>
+      ) : (
+        <div className="buttons">
+          <button onClick={() => navigate(`/payment/${item.id}`)}>Buy</button>
+          <button onClick={() => navigate(`/`)}>More</button>
+        </div>
+      )}
     </div>
   );
 }

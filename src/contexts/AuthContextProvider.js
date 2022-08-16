@@ -24,8 +24,7 @@ const AuthContextProvider = ({ children }) => {
 
     try {
       const res = await axios.post(`${API}register/`, formData, config);
-      console.log(res);
-      navigate("/");
+      navigate("signin");
     } catch (error) {
       console.log(error);
       setError("Error occured");
@@ -33,7 +32,6 @@ const AuthContextProvider = ({ children }) => {
   };
 
   const login = async (email, password) => {
-    // console.log(user);
     let formData = new FormData();
     formData.append("username", email);
     formData.append("password", password);
@@ -41,7 +39,6 @@ const AuthContextProvider = ({ children }) => {
     try {
       let res = await axios.post(`${API}api/token/`, formData, config);
       navigate("/");
-      console.log(res.data);
       localStorage.setItem("token", JSON.stringify(res.data));
       localStorage.setItem("username", email);
     } catch (error) {

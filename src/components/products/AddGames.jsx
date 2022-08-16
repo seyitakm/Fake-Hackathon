@@ -15,8 +15,6 @@ const AddGames = () => {
     type: "",
   });
 
-  console.log(product);
-
   const handleInp = (e) => {
     if (e.target.name === "price") {
       let obj = {
