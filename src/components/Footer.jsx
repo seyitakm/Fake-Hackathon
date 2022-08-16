@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <div class="main">
-          <div class="col1">
-            <h3 class="heading">About the store</h3>
+        <div className="main">
+          <div className="col1">
+            <h3 className="heading">About the store</h3>
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -29,9 +29,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="col2">
-            <h3 class="heading">Language</h3>
-            <div class="languages">
+          <div className="col2">
+            <h3 className="heading">Language</h3>
+            <div className="languages">
               <a href="#">Deutsch</a>
               <a href="#">English</a>
               <a href="#">Espaṅol</a>
@@ -47,9 +47,9 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col3">
-            <h3 class="heading">Get in touch</h3>
-            <div class="social">
+          <div className="col3">
+            <h3 className="heading">Get in touch</h3>
+            <div className="social">
               <a href="#">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
@@ -63,14 +63,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <p class="terms">
+        <p className="terms">
           <a href="#">Terms of purchase</a>
           <a href="#">Security and privacy</a>
           <a href="#">Newsletter</a>
         </p>
       </footer>
-
-
     </div>
   );
 };

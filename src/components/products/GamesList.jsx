@@ -5,7 +5,6 @@ import GamesCard from "./GamesCard";
 
 const GamesList = () => {
   const { products, getGames } = useProducts();
-  console.log(products);
 
   useEffect(() => {
     getGames();

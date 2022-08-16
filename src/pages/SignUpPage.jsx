@@ -2,12 +2,12 @@ import * as React from "react";
 import Link from "@mui/material/Link";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { createTheme } from "@mui/material/styles";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContextProvider";
 import "../styles/Auth.css";
-import { Input } from "@mui/material";
+
 import Countries from "../components/Countries";
 
 function Copyright(props) {
@@ -37,10 +37,17 @@ export default function SignUpPage() {
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
 
+  const [password2, setPassword2] = React.useState("");
+
   const [changeColorProfile, setChangeColorProfile] = React.useState("#adadad");
   const [changeColorLock, setChangeColorLock] = React.useState("#adadad");
 
   function handleRegister(email, password) {
+    if (password2 !== password) {
+      alert("passwords don't match");
+      return;
+    }
+
     register(email, password);
   }
 
@@ -114,12 +121,16 @@ export default function SignUpPage() {
               type="password"
               id="password"
               autoComplete="current-password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              value={password2}
+              onChange={(e) => setPassword2(e.target.value)}
               onFocus={() => setChangeColorLock("#8C2CEF")}
               onBlur={() => setChangeColorLock("#adadad")}
             />
           </div>
+
+          {/* <span>
+            {password2 === password ? null : <h1> Passwords dont match</h1>}{" "}
+          </span> */}
         </div>
         <Countries />
         {error ? (

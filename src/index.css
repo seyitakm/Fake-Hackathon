@@ -34,11 +34,16 @@ body {
 
 .signup {
   border: 1px solid white;
+  background-color: white;
+  color: black !important;
   width: 70px;
   text-align: center;
   border-radius: 5px;
 }
-
+.signup:hover {
+  background-color: white !important;
+  color: #0088ff !important;
+}
 .appbar video {
   position: absolute;
   z-index: -1;
@@ -83,7 +88,9 @@ body {
   margin-left: 1%;
   margin-right: 1%;
 }
-
+.card:hover {
+  background-color: #e1f0f4;
+}
 .card h3 {
   font-family: "Play", sans-serif;
 }
