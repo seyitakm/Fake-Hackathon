@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { createContext, useContext, useReducer } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { ACTIONS, JSON_API_PRODUCTS } from "../helpers/consts";
 
 export const productContext = createContext();
@@ -25,6 +26,8 @@ const reducer = (state = INIT_STATE, action) => {
 };
 
 const ProductContextProvider = ({ children }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
   const addGames = async (newProduct) => {
@@ -61,7 +64,7 @@ const ProductContextProvider = ({ children }) => {
 
   const fetchByParams = (query, value) => {
     const search = new URLSearchParams(location.search);
-    // console.log(search);
+
     if (value === "all") {
       search.delete(query);
     } else {
