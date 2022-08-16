@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { createContext, useContext, useReducer } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
 import { ACTIONS, JSON_API_PRODUCTS } from "../helpers/consts";
 
 export const productContext = createContext();
@@ -27,9 +26,6 @@ const reducer = (state = INIT_STATE, action) => {
 
 const ProductContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
-
-  const location = useLocation();
-  const navigate = useNavigate();
 
   const addGames = async (newProduct) => {
     await axios.post(JSON_API_PRODUCTS, newProduct);
