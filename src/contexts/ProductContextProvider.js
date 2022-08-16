@@ -36,7 +36,9 @@ const ProductContextProvider = ({ children }) => {
   };
 
   const getGames = async () => {
-    const { data } = await axios(`${JSON_API_PRODUCTS}`);
+    const { data } = await axios(
+      `${JSON_API_PRODUCTS}/${window.location.search}`
+    );
     dispatch({
       type: ACTIONS.GET_PRODUCTS,
       payload: data,
@@ -60,12 +62,26 @@ const ProductContextProvider = ({ children }) => {
     await axios.patch(`${JSON_API_PRODUCTS}/${newGames.id}`, newGames);
     getGames();
   };
+
+  const fetchByParams = (query, value) => {
+    const search = new URLSearchParams(location.search);
+    // console.log(search);
+    if (value === "all") {
+      search.delete(query);
+    } else {
+      search.set(query, value);
+    }
+    const url = `${location.pathname}?${search.toString()}`;
+    navigate(url);
+  };
+
   const values = {
     getGames,
     addGames,
     deleteGames,
     getGamesDetails,
     saveEditedGames,
+    fetchByParams,
 
     products: state.products,
     productDetails: state.productDetails,

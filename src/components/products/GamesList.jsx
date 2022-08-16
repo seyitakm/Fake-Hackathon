@@ -1,4 +1,4 @@
-import { Box, Pagination } from "@mui/material";
+import { Box, Pagination, TextField } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { useProducts } from "../../contexts/ProductContextProvider";
@@ -59,7 +59,8 @@ const GamesList = () => {
       <Pagination
         variant="outlined"
         shape="rounded"
-        sx={{ m: "0 auto" }}
+        sx={{ m: "0 auto", bgcolor: "white" }}
+        color="primary"
         count={count}
         page={page}
         onChange={handlePage}
