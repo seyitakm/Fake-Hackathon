@@ -11,7 +11,7 @@ const Navbar = () => {
           <h1 onClick={() => navigate("/")}>NIGHT-CITY</h1>
         </div>
         <div className="inner__right">
-          <RouterLink to="/latest">Latest</RouterLink>
+          <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/products">Store</RouterLink>
           <RouterLink to="/subs">Subscriptions</RouterLink>
           <RouterLink to="/contacts">Contacts</RouterLink>

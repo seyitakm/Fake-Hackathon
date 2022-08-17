@@ -24,7 +24,7 @@ export default class Card extends React.Component {
   render() {
     return (
       <div className="auth-main">
-        <div className="auth-block">
+        <div className="auth-blockPayment">
           <div id="PaymentForm">
             <Cards
               cvc={this.state.cvc}

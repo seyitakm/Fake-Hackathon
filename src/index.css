@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(29, 28, 28);
+  background-color: rgb(21, 20, 20);
   background-size: cover;
 }
 
@@ -240,6 +240,7 @@ footer {
   border: 1px double white;
   border-radius: 15px;
   margin: 7%;
+  background-color: #202020;
 }
 .paymentContainer {
   display: flex;
@@ -256,21 +257,51 @@ footer {
 }
 .paymentRight {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 .paymenth3 {
   color: white;
+  font-size: 3vw;
+  margin-bottom: 10%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
 .paymentDescr {
   color: white;
+  width: 90%;
+  font-size: 0.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
 }
 .paymentPrice {
+  color: rgb(29, 239, 22);
+  background-color: #0c0c0d;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.paymentBtn {
+  background-color: #0c0c0d;
   color: white;
+  border: 1px solid white;
+  box-shadow: black 1px 1px;
+  border-radius: 3px;
+  width: 50px;
+  height: 22px;
+  transition: 0.4s;
 }
-.paymentF1 {
+.paymentBtn:hover {
+  background-color: white;
+  color: black;
 }
-.paymentF2 {
+.paymentButtons {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
 }
 
 /* PAYMENT CSS END  */
