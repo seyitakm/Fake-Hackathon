@@ -26,10 +26,9 @@ const reducer = (state = INIT_STATE, action) => {
 };
 
 const ProductContextProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, INIT_STATE);
-
-  const location = useLocation();
   const navigate = useNavigate();
+  const location = useLocation();
+  const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
   const addGames = async (newProduct) => {
     await axios.post(JSON_API_PRODUCTS, newProduct);
@@ -65,7 +64,7 @@ const ProductContextProvider = ({ children }) => {
 
   const fetchByParams = (query, value) => {
     const search = new URLSearchParams(location.search);
-    // console.log(search);
+
     if (value === "all") {
       search.delete(query);
     } else {
