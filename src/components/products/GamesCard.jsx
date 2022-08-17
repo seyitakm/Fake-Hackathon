@@ -2,8 +2,10 @@ import * as React from "react";
 import { useProducts } from "../../contexts/ProductContextProvider";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContextProvider";
+import { useCart } from "../../contexts/CartContextProvider";
 
 export default function GamesCard({ item }) {
+  const { addProductToCart } = useCart();
   const { deleteGames } = useProducts();
   const navigate = useNavigate();
 
@@ -26,6 +28,7 @@ export default function GamesCard({ item }) {
         <div className="buttons">
           <button onClick={() => navigate(`/payment/${item.id}`)}>Buy</button>
           <button onClick={() => navigate(`/`)}>More</button>
+          <button onClick={() => addProductToCart(item)}>ToCart</button>
         </div>
       )}
     </div>
