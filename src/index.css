@@ -325,3 +325,9 @@ footer {
 }
 
 /* PAYMENT CSS END  */
+/* HOME PAGE  */
+.homePage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
