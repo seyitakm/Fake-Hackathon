@@ -73,6 +73,7 @@ export default class Card extends React.Component {
                 onFocus={this.handleInputFocus}
               />
               ...
+              <button>Buy</button>
             </form>
           </div>
         </div>

@@ -232,23 +232,32 @@ footer {
 /* 404 PAGE */
 
 /* PAYMENT CSS START  */
-.paymentContainer {
-  background-color: rgb(126, 230, 239);
-  border: 1px dotted black;
-  border-radius: 15px;
-  width: 30vw;
-  height: 30rem;
+.payment {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border: 1px double white;
+  border-radius: 15px;
+  margin: 7%;
+}
+.paymentContainer {
+  display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 2%;
 }
 .cardImg {
-  width: 98%;
-  height: 180px;
+  width: 30vw;
+  height: 450px;
   object-fit: cover;
   overflow: hidden;
   border-radius: 15px;
+}
+.paymentRight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .paymenth3 {
   color: white;
@@ -263,4 +272,5 @@ footer {
 }
 .paymentF2 {
 }
+
 /* PAYMENT CSS END  */
