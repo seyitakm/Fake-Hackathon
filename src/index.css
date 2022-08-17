@@ -32,6 +32,20 @@ body {
   color: #0088ff;
 }
 
+
+.video__container{
+  position: relative;
+}
+
+
+.video{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+
 .signup {
   border: 1px solid white;
   background-color: white;
