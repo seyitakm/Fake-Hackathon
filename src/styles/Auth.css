@@ -23,7 +23,18 @@
   align-items: center;
   box-shadow: 0 0 18px rgb(176, 176, 176);
 }
+.auth-blockPayment {
+  padding: 65px 55px 55px;
+  margin: 65px auto 30px;
 
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 18px rgb(176, 176, 176);
+}
 .auth-header {
   color: #333;
   font-weight: bold;
