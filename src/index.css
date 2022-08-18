@@ -500,6 +500,29 @@ footer {
     justify-content: flex-start;
   }
 
+
+  .auth-blockPayment{
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+
+
+  #PaymentForm{
+    width: 96%;
+  }
+
+
+  .payment{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardImg{
+    width: 50vw;
+    height: 50vw;
+  }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -538,9 +561,18 @@ footer {
   }
 }
 
+
+@media screen and (max-width: 300px){
+  .rccs{
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 230px) {
   .main {
     flex-direction: column;
     flex-wrap: wrap;
   }
+
 }
