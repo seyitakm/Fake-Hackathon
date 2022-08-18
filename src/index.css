@@ -485,6 +485,21 @@ footer {
   .inner__right {
     display: none;
   }
+
+  .inner__appbar input:checked ~ .inner__right{
+    background-color: #0000009f;
+    width: 35vw;
+    height: auto;
+    z-index: 2;
+    display: flex;
+    margin-top: 30vw;
+    margin-right: 70vw;
+    border-radius: 15px;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-start;
+  }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -493,8 +508,25 @@ footer {
     flex-direction: column;
   }
 
+
   .auth {
     display: none;
+  }
+
+
+  .inner__appbar input:checked ~ .inner__right{
+    padding-top: 10vw;
+  }
+
+
+  .inner__appbar input:checked ~ .auth{
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    padding-top: 50vw;
+    /* margin-right: 70vw; */
+    flex-direction: column;
+    align-items: center;
   }
 
   .main {
