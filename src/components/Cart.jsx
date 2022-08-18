@@ -9,10 +9,11 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { useCart } from "../contexts/CartContextProvider";
 
-import { Box } from "@mui/system";
+import { Box, createTheme, flexbox } from "@mui/system";
 import { Button, TextField, Typography } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useNavigate } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -33,6 +34,14 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
     border: 0,
   },
 }));
+
+// const theme = createTheme();
+
+// theme.StyledTableCell.h3 = {
+//   "@media (max-width:600px)": {
+//     display: "none",
+//   },
+// };
 
 function createData(name, calories, fat, carbs, protein) {
   return { name, calories, fat, carbs, protein };
@@ -70,9 +79,20 @@ export default function Cart() {
   };
   const navigate = useNavigate();
   return (
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 700 }} aria-label="customized table">
-        <TableHead>
+    <TableContainer
+      sx={{
+        "@media (max-width:600px)": {
+          display: "flex",
+          flexWrap: "wrap",
+        },
+      }}
+      component={Paper}
+    >
+      <Table
+        sx={{ minWidth: 600, width: "100%" }}
+        aria-label="customized table"
+      >
+        <TableHead sx={{ width: "100%" }}>
           <TableRow>
             <StyledTableCell sx={trHeadStyle}>Picture</StyledTableCell>
             <StyledTableCell sx={trHeadStyle} align="right">
@@ -87,10 +107,30 @@ export default function Cart() {
             <StyledTableCell sx={trHeadStyle} align="right">
               Price
             </StyledTableCell>
-            <StyledTableCell sx={trHeadStyle} align="right">
+            <StyledTableCell
+              sx={
+                (trHeadStyle,
+                {
+                  "@media (max-width:550px)": {
+                    display: "none",
+                  },
+                })
+              }
+              align="right"
+            >
               Count
             </StyledTableCell>
-            <StyledTableCell sx={trHeadStyle} align="right">
+            <StyledTableCell
+              sx={
+                (trHeadStyle,
+                {
+                  "@media (max-width:600px)": {
+                    display: "none",
+                  },
+                })
+              }
+              align="right"
+            >
               Sub Price
             </StyledTableCell>
             <StyledTableCell sx={trHeadStyle} align="right">
@@ -109,10 +149,27 @@ export default function Cart() {
                 {row.item.name}
               </StyledTableCell>
               <StyledTableCell align="right">{row.item.type}</StyledTableCell>
-              <StyledTableCell align="right">
+              <StyledTableCell
+                align="right"
+                sx={{
+                  "@media (max-width:900px)": {
+                    display: "none",
+                  },
+                }}
+              >
                 {row.item.description}
               </StyledTableCell>
-              <StyledTableCell align="right">{row.item.price}</StyledTableCell>
+
+              <StyledTableCell
+                align="right"
+                sx={{
+                  "@media (max-width:900px)": {
+                    display: "none",
+                  },
+                }}
+              >
+                {row.item.price}
+              </StyledTableCell>
               <StyledTableCell align="right">
                 <TextField
                   type="number"
