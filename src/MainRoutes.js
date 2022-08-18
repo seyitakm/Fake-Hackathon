@@ -6,6 +6,7 @@ import CartPaymentCardPage from "./pages/CartPaymentCardPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import EditGamesPage from "./pages/EditGamesPage";
 import HomePage from "./pages/HomePage";
+import MoreDetails from "./pages/MoreDetails";
 import NotFoundPage from "./pages/NotFoundPage";
 import PaymentPage from "./pages/PaymentPage";
 import ProductsPage from "./pages/ProductsPage";
@@ -67,6 +68,11 @@ const MainRoutes = () => {
     {
       link: "/paymentcart",
       element: <CartPaymentCardPage />,
+      id: 10,
+    },
+    {
+      link: "/more/:id",
+      element: <MoreDetails />,
       id: 10,
     },
   ];
