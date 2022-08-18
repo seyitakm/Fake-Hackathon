@@ -278,6 +278,7 @@ footer {
 .main {
   width: 100%;
   display: flex;
+
   gap: 50px;
 }
 .heading {
@@ -438,10 +439,11 @@ footer {
   justify-content: center;
   width: 100%;
 }
-.searchBtn {
+/* .searchBtn {
   border: 1px solid white !important;
   border-radius: 30px !important;
-}
-.category {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+} */
+
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root:focus {
+  outline: none !important;
 }

@@ -35,8 +35,8 @@ const tiers = [
     title: "Beginner",
     price: "50",
     description: [
-      "10 users included",
-      "2 GB of storage",
+      "10 games included",
+      "games with low price",
       "Help center access",
       "Email support",
     ],
@@ -48,8 +48,8 @@ const tiers = [
     subheader: "Most popular",
     price: "150",
     description: [
-      "20 users included",
-      "10 GB of storage",
+      "20 games included",
+      "TOP 10 games for free",
       "Help center access",
       "Priority email support",
     ],
@@ -60,8 +60,8 @@ const tiers = [
     title: "Enterprise",
     price: "300",
     description: [
-      "50 users included",
-      "30 GB of storage",
+      "50 games included",
+      "50% discount for all",
       "Help center access",
       "Phone & email support",
     ],
@@ -88,7 +88,7 @@ function PricingContent() {
           gutterBottom
           sx={{ fontFamily: "impact" }}
         >
-          Pricing
+          Be a part of us
         </Typography>
         <Typography
           variant="h5"
@@ -97,9 +97,8 @@ function PricingContent() {
           component="p"
           sx={{ fontFamily: "impact" }}
         >
-          Quickly build an effective pricing table for your potential customers
-          with this layout. It&apos;s built with default MUI components with
-          little customization.
+          We made up a gainful offer for you! Get more benefits with
+          subscription
         </Typography>
       </Container>
       {/* End hero unit */}

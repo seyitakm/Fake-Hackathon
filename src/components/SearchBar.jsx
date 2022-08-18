@@ -112,7 +112,13 @@ const SearchBar = () => {
         </Box>
         <TextField
           className="searchBtn"
-          sx={{ mt: 3 }}
+          sx={{
+            mt: 3,
+            bgcolor: "white",
+            borderRadius: "30px",
+            width: "10vw",
+            height: "50px",
+          }}
           value={search}
           onChange={(e) => {
             fetchByParams();
