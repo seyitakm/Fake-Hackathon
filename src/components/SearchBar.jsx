@@ -100,7 +100,7 @@ const SearchBar = () => {
         </Box>
         <TextField
           className="searchBtn"
-          sx={{ mt: 3 }}
+          sx={{ mt: 3, bgcolor: "white" }}
           value={search}
           onChange={(e) => {
             fetchByParams();

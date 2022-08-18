@@ -281,6 +281,7 @@ footer {
 .main {
   width: 100%;
   display: flex;
+
   gap: 50px;
 }
 .heading {
@@ -441,9 +442,10 @@ footer {
   justify-content: center;
   width: 100%;
 }
-.searchBtn {
+/* .searchBtn {
   border: 1px solid white !important;
   border-radius: 30px !important;
+
 }
 
 .inner__appbar label,
@@ -490,3 +492,6 @@ footer {
     flex-wrap: wrap;
   }
 }
+
+} */
+

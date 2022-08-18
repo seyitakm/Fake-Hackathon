@@ -9,7 +9,7 @@ const Footer = () => {
             <h3 className="heading">About the store</h3>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#">Become a customer</a>
@@ -24,27 +24,9 @@ const Footer = () => {
                 <a href="#">Return policy</a>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <a href="/contacts">Contact us</a>
               </li>
             </ul>
-          </div>
-
-          <div className="col2">
-            <h3 className="heading">Language</h3>
-            <div className="languages">
-              <a href="#">Deutsch</a>
-              <a href="#">English</a>
-              <a href="#">Espaṅol</a>
-              <a href="#">Français</a>
-              <a href="#">Indonesian</a>
-              <a href="#">Italian</a>
-              <a href="#">Nederlands</a>
-              <a href="#">Polnisch</a>
-              <a href="#">Português</a>
-              <a href="#">Русский</a>
-              <a href="#">Tiéng Viêt</a>
-              <a href="#">Türkçe</a>
-            </div>
           </div>
 
           <div className="col3">

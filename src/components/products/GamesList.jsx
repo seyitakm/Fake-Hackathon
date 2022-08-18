@@ -39,6 +39,7 @@ const GamesList = () => {
     <Box
       sx={{
         display: "flex",
+
         mt: 2,
         flexDirection: "column",
       }}

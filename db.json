@@ -29,7 +29,7 @@
       "description": "Reaping souls of the dead and punching a clock might get monotonous but it's honest work for a Crow. The job gets lively when your assigned soul is stolen and you must track down a desperate thief to a realm untouched by death - where creatures grow far past their expiry.",
       "price": 19.99,
       "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202109/2601/gZ2PU5esf8HcRRQDZeiDJWpR.jpg",
-      "type": "",
+      "type": "shooter",
       "id": 4
     },
     {
@@ -37,7 +37,7 @@
       "description": "DEATHLOOP is a next-gen FPS from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity.",
       "price": 29.99,
       "picture": "https://upload.wikimedia.org/wikipedia/ru/9/9a/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Deathloop.jpg",
-      "type": "",
+      "type": "shooter",
       "id": 5
     },
     {
@@ -45,7 +45,7 @@
       "description": "Play the genre-defining classics of the original Grand Theft Auto Trilogy: Grand Theft Auto III, Grand Theft Auto: Vice City, and Grand Theft Auto: San Andreas updated for a new generation, now with across-the-board enhancements including brilliant new lighting and environmental upgrades, with high-resolution textures, increased draw distances, Grand Theft Auto V-style controls and targeting, and much more, bringing these beloved worlds to life with all new levels of detail.",
       "price": 59,
       "picture": "https://m.media-amazon.com/images/I/81ulcOeeRtL._SY606_.jpg",
-      "type": "",
+      "type": "rpg",
       "id": 6
     },
     {
@@ -53,7 +53,7 @@
       "description": "Rise on every front: Dogfight over the Pacific, airdrop over France, defend Stalingrad with a sniper’s precision and blast through advancing forces in North Africa. The Call of Duty® franchise returns with Call of Duty®: Vanguard, developed by Sledgehammer Games, where players will be immersed in visceral WWII combat on an unprecedented global scale.",
       "price": 69.99,
       "picture": "https://s1.gaming-cdn.com/images/products/9384/orig-fallback-v1/call-of-duty-vanguard-cross-gen-bundle-xbox-one-xbox-series-x-s-cross-gen-bundle-xbox-one-xbox-series-x-s-game-microsoft-store-europe-cover.jpg?v=1650624694",
-      "type": "",
+      "type": "shooter",
       "id": 7
     },
     {
@@ -61,7 +61,7 @@
       "description": "First Class Trouble is an multiplayer party game that blends cooperation and deception as players try to figure out who they can trust, while they fight to survive aboard a luxury space cruise-liner that’s had an A.I. uprising.",
       "price": 11.25,
       "picture": "https://static.wixstatic.com/media/3b1e9c_52441987dea24d5da9b1b54ac72d3335~mv2.png/v1/fill/w_1920,h_1080,al_c/3b1e9c_52441987dea24d5da9b1b54ac72d3335~mv2.png",
-      "type": "",
+      "type": "shooter",
       "id": 8
     },
     {
@@ -69,7 +69,7 @@
       "description": "From PlayStation Studios and Bluepoint Games comes a remake of the PlayStation classic, Demon’s Souls. Entirely rebuilt from the ground up and masterfully enhanced, this remake introduces the horrors of a fog-laden, dark fantasy land to a whole new generation of gamers. Those who’ve faced its trials and tribulations before, can once again challenge the darkness in stunning visual quality with incredible performance. ",
       "price": 39.15,
       "picture": "https://upload.wikimedia.org/wikipedia/ru/1/11/Demons_Souls_remake_cover_art.jpg",
-      "type": "",
+      "type": "rpg",
       "id": 9
     },
     {
@@ -77,7 +77,7 @@
       "description": "If you already own Ghost of Tsushima on PS4™, you can pre-order an upgrade to the Ghost of Tsushima DIRECTOR’S CUT on PS4 for $19.99 from 29 June 2021. This upgrade will be available from 20 August 2021.",
       "price": 50.99,
       "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/v53I7qHvpWSQsL2oLxrM46NV.png",
-      "type": "",
+      "type": "rpg",
       "id": 10
     },
     {
@@ -85,7 +85,7 @@
       "description": "In the latest adventure in the Marvel’s Spider-Man universe, teenager Miles Morales is adjusting to his new home while following in the footsteps of his mentor, Peter Parker, as a new Spider-Man.",
       "price": 29.99,
       "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png",
-      "type": "",
+      "type": "rpg",
       "id": 11
     },
     {
@@ -93,7 +93,7 @@
       "description": "The US President must save the Earth from alien overlord Zinyak using an arsenal of superpowers and strange weapons in the wildest open world game ever.",
       "price": 9.99,
       "picture": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_SaintsRow_DeepSilverVolition_S2_1200x1600-d95f6c911a764ad44302f021a3174a24",
-      "type": "",
+      "type": "rpg",
       "id": 12
     },
     {
@@ -101,7 +101,7 @@
       "description": "Horizon Forbidden West is one of Sony's flagship games for 2022. This sequel to the smash hit Horizon Zero Dawn is here, and fans of Aloy and her robo-dino-destroying exploits have another epic action RPG to enjoy. In this Horizon Forbidden West guide, we're going to answer some common questions about Horizon Forbidden West so you can stay informed about the game.",
       "price": 59.99,
       "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3102/xt3epBb704GnnJqcQhQBdeZH.png",
-      "type": "",
+      "type": "rpg",
       "id": 13
     },
     {
@@ -109,7 +109,7 @@
       "description": "Pre-order Marvel's Guardians of the Galaxy to get the Guardians of the Galaxy Costume Pack early. You will immediately unlock one costume for each of the Guardians of the Galaxy - we have reflected the iconic images of comic book characters in them.",
       "price": 10.59,
       "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202106/0311/ycYwMaDKZ8nFZd3E8EJz9zfZ.png",
-      "type": "",
+      "type": "shooter",
       "id": 14
     },
     {
@@ -117,7 +117,7 @@
       "description": "A galaxy-spanning adventure awaits in Star Wars Jedi: Fallen Order, a 3rd person action-adventure title from Respawn. An abandoned Padawan must complete his training, develop new powerful Force abilities, and master the art of the lightsaber - all while staying one step ahead of the Empire.",
       "price": "39.99",
       "picture": "https://upload.wikimedia.org/wikipedia/ru/3/3e/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Star_Wars_Jedi_Fallen_Order.jpg",
-      "type": "",
+      "type": "rpg",
       "id": 16
     },
     {
@@ -125,7 +125,7 @@
       "description": "From 'PES' to 'eFootball™' A new era of digital football has begun!",
       "price": "free",
       "picture": "https://s2.gaming-cdn.com/images/products/7318/orig-fallback-v1/efootball-2022-pc-game-steam-cover.jpg?v=1632993144",
-      "type": "",
+      "type": "sport",
       "id": 17
     },
     {
@@ -133,7 +133,7 @@
       "description": "Create your own hero from multiple classes and shoot, slash, slash for loot to be taken from incredible monsters and found deep in the dungeons to stop the merciless Dragon Lord. Everyone is welcome here, so join the party, put on your adventure boots, and show off your Chaotic Cool character!",
       "price": 89.99,
       "picture": "https://cdn1.epicgames.com/offer/c37115918ccc4969a57b6b1bdc28af4a/TTWL_ChaoticTall_1200x1600-0e2c252dca04ffb429b2891a95c5cea2",
-      "type": "",
+      "type": "rpg",
       "id": 18
     },
     {
@@ -141,7 +141,7 @@
       "description": "Sifu is the new game from Sloclap, the independent studio behind Absolver. A third-person action game with intense hand-to-hand combat that puts you in control of a young kung fu student who has chosen the path of revenge.",
       "price": 49.99,
       "picture": "https://img.championat.com/c/1350x759/news/big/c/y/poigrali-v-sifu_16396184942077707613.jpg",
-      "type": "",
+      "type": "shooter",
       "id": 19
     },
     {
@@ -149,8 +149,48 @@
       "description": "Experience survival horror like never before in the 8th major installment in the Resident Evil franchise - Resident Evil Village. With detailed graphics, intense first-person action and masterful storytelling, the terror has never felt more realistic.",
       "price": 39.99,
       "picture": "https://upload.wikimedia.org/wikipedia/ru/2/24/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Resident_Evil_Village.jpg",
-      "type": "",
+      "type": "shooter",
       "id": 20
+    },
+    {
+      "name": "Need for Speed: Most Wanted",
+      "description": "Need for Speed: Most Wanted — компьютерная игра серии Need for Speed в жанре аркадной автогонки, разработанная студией EA Canada и изданная компанией Electronic Arts для консолей, персональных компьютеров и мобильных телефонов в 2005 году",
+      "price": 10.99,
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/15/NFS-Most-Wanted-Front.jpg/274px-NFS-Most-Wanted-Front.jpg",
+      "type": "sport",
+      "id": 21
+    },
+    {
+      "name": "Need for Speed: Underground 2",
+      "description": "Need for Speed: Underground 2 — компьютерная игра серии Need for Speed в жанре аркадных автогонок, разработанная студией EA Black Box и изданная компанией Electronic Arts для игровых приставок, персональных компьютеров и мобильных телефонов в 2004 году. Игра является сиквелом Need for Speed: Underground",
+      "price": 12.99,
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/d0/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Need_for_Speed_Underground_2.jpg/640px-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Need_for_Speed_Underground_2.jpg",
+      "type": "sport",
+      "id": 22
+    },
+    {
+      "name": "NHL 22",
+      "description": "NHL 22 - это видеоигра-симулятор хоккея, разработанная EA Vancouver и опубликованная EA Sports. Это 31-й выпуск в серии видеоигр NHL, выпущенный для PlayStation 4, PlayStation 5, Xbox One и Xbox Series X / S 15 октября 2021 года.",
+      "price": 17.99,
+      "picture": "https://s1.gaming-cdn.com/images/products/9774/orig-fallback-v1/nhl-22-xbox-one-xbox-one-game-microsoft-store-cover.jpg?v=1645711019",
+      "type": "sport",
+      "id": 23
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Cyberpunk 2077 — компьютерная игра в жанре action-adventure в открытом мире, разработанная и изданная польской студией CD Projekt. Действие игры происходит в 2077 году в Найт-Сити, вымышленном североамериканском городе из вселенной Cyberpunk",
+      "price": 25.99,
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/b/bb/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B8%D0%B3%D1%80%D1%8B_Cyberpunk_2077.jpg",
+      "type": "rpg",
+      "id": 24
+    },
+    {
+      "name": "Ведьмак 3: Дикая Охота",
+      "description": "«Ведьма́к 3: Дикая Охота» — компьютерная игра в жанре action/RPG, разработанная польской студией CD Projekt RED. Выпущенная 19 мая 2015 года на Windows, PlayStation 4 и Xbox One, затем 15 октября 2019 года на Nintendo Switch, она является повествованием, продолжающим игры «Ведьмак» и «Ведьмак 2: Убийцы королей»",
+      "price": 26.99,
+      "picture": "https://cdn.akamai.steamstatic.com/steam/apps/292030/capsule_616x353.jpg?t=1646996408",
+      "type": "rpg",
+      "id": 25
     }
   ]
 }
