@@ -102,18 +102,18 @@ body {
   transition: 0.5s;
 }
 
-.first__block:hover{
+.first__block:hover {
   width: 83%;
 }
 
-.second__block{
+.second__block {
   display: flex;
   justify-content: space-between;
   width: 80%;
   height: 30vw;
 }
 
-.sec__one{
+.sec__one {
   width: 49%;
   height: 30vw;
   background-position: center;
@@ -123,12 +123,11 @@ body {
   transition: 0.5s;
 }
 
-.sec__one:hover{
+.sec__one:hover {
   width: 50%;
 }
 
-
-.sec__two{
+.sec__two {
   width: 49%;
   height: 30vw;
   background-position: center;
@@ -138,19 +137,18 @@ body {
   transition: 0.5s;
 }
 
-.sec__two:hover{
+.sec__two:hover {
   width: 50%;
 }
 
-
-.third__block{
+.third__block {
   display: flex;
   justify-content: space-between;
   width: 80%;
   height: 30vw;
 }
 
-.th__one{
+.th__one {
   width: 49%;
   height: 30vw;
   background-position: center;
@@ -160,11 +158,11 @@ body {
   transition: 0.5s;
 }
 
-.th__one:hover{
+.th__one:hover {
   width: 50%;
 }
 
-.th__two{
+.th__two {
   width: 49%;
   height: 30vw;
   background-position: center;
@@ -174,13 +172,11 @@ body {
   transition: 0.5s;
 }
 
-.th__two:hover{
+.th__two:hover {
   width: 50%;
 }
 
-
-
-.fourth__block{
+.fourth__block {
   width: 80%;
   height: 30vw;
   border-radius: 20px;
@@ -190,9 +186,8 @@ body {
   transition: 0.5s;
 }
 
-.fourth__block:hover{
+.fourth__block:hover {
   width: 83%;
-
 }
 
 /* GAMES CARDS START */
@@ -283,6 +278,7 @@ footer {
 .main {
   width: 100%;
   display: flex;
+
   gap: 50px;
 }
 .heading {
@@ -443,7 +439,7 @@ footer {
   justify-content: center;
   width: 100%;
 }
-.searchBtn {
+/* .searchBtn {
   border: 1px solid white !important;
   border-radius: 30px !important;
-}
+} */
