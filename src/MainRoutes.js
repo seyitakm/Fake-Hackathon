@@ -12,6 +12,7 @@ import PaymentPage from "./pages/PaymentPage";
 import ProductsPage from "./pages/ProductsPage";
 import SignInPage from "./pages/SignInPage";
 import SignUpPage from "./pages/SignUpPage";
+import SubscribePage from "./pages/SubscribePage";
 
 const MainRoutes = () => {
   const ALL_ROUTES = [
@@ -73,6 +74,11 @@ const MainRoutes = () => {
     {
       link: "/more/:id",
       element: <MoreDetails />,
+      id: 10,
+    },
+    {
+      link: "/subscribe",
+      element: <SubscribePage />,
       id: 10,
     },
   ];

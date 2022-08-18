@@ -13,7 +13,7 @@ export default function GamesCard({ item }) {
   console.log(user);
 
   return (
-    <div className="card">
+    <div onClick={() => navigate(`/more/${item.id}`)} className="card">
       <img className="card--img" src={item.picture} alt="" />
       <h3>{item.name}</h3>
       <div className="card--descr">${item.price}</div>
@@ -28,7 +28,7 @@ export default function GamesCard({ item }) {
         <div className="buttons">
           <button onClick={() => navigate(`/payment/${item.id}`)}>Buy</button>
           <button onClick={() => navigate(`/more/${item.id}`)}>More</button>
-          <button onClick={() => addProductToCart(item)}>ToCart</button>
+          <button onClick={() => addProductToCart(item)}>Cart</button>
         </div>
       )}
     </div>
