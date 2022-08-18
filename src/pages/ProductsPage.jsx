@@ -7,6 +7,9 @@ import SearchBar from "../components/SearchBar";
 const ProductsPage = () => {
   return (
     <Box>
+      <div className="nightText">
+        <div className="search-text">Night City</div>
+      </div>
       <SearchBar />
       <GamesList />
       <Footer />

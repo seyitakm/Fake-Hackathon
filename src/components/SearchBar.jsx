@@ -39,7 +39,6 @@ const SearchBar = () => {
 
   return (
     <Box>
-      <div className="search-text">Night City</div>
       <div>
         <button onClick={() => navigate("/cart")}>Cart</button>
       </div>
