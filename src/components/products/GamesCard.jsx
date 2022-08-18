@@ -28,7 +28,7 @@ export default function GamesCard({ item }) {
         <div className="buttons">
           <button onClick={() => navigate(`/payment/${item.id}`)}>Buy</button>
           <button onClick={() => navigate(`/more/${item.id}`)}>More</button>
-          <button onClick={() => addProductToCart(item)}>ToCart</button>
+          <button onClick={() => addProductToCart(item)}>Cart</button>
         </div>
       )}
     </div>

@@ -1,8 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Card from "../components/paymentform/Card";
 import GamesList from "../components/products/GamesList";
-import ProductsPage from "./ProductsPage";
 import home from "../assets/img/home.mp4";
 import hb from "../assets/img/hb.jpg";
 
@@ -16,7 +14,6 @@ const HomePage = () => {
         <div className="first__block">
           <img className="home__img" src="" alt="" />
         </div>
-
         <div className="second__block">
           <div className="sec__one"></div>
           <div className="sec__two"></div>
@@ -34,6 +31,7 @@ const HomePage = () => {
           <GamesList />
         </div>
       </div>
+
       <Footer />
     </div>
   );
