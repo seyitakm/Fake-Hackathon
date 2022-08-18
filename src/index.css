@@ -259,6 +259,27 @@ body {
   color: white;
   list-style-type: none;
 }
+
+/* CARDS RESPONSIVE  START*/
+@media screen and (max-width: 666px) {
+  .card {
+    width: 142px;
+    height: 212px;
+  }
+}
+@media screen and (max-width: 230px) {
+  .card {
+    width: 100px;
+    height: 140px;
+  }
+  .card button {
+    width: 30px;
+    height: 20px;
+  }
+}
+
+/* CARDS RESPONSIVE  END*/
+
 /* GAMES CARDS END */
 /* FOOTER  START */
 
@@ -281,6 +302,7 @@ footer {
 .main {
   width: 100%;
   display: flex;
+
   gap: 50px;
 }
 .heading {

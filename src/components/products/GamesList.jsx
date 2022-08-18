@@ -39,6 +39,7 @@ const GamesList = () => {
     <Box
       sx={{
         display: "flex",
+
         mt: 2,
         flexDirection: "column",
       }}
@@ -60,8 +61,8 @@ const GamesList = () => {
         <Pagination
           // variant="outlined"
           //   shape="rounded"
-          sx={{ m: "0 auto", marginTop: "5%" }}
-          color="primary"
+          sx={{ m: "0 auto", marginTop: "5%", backgroundColor: "white" }}
+          color="success"
           count={count}
           page={page}
           onChange={handlePage}
