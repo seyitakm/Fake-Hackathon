@@ -36,7 +36,7 @@ const PaymentPage = () => {
           </div>
         </div>
       </div>
-      <div className="rotate"></div>
+
       <Card />
     </div>
   );

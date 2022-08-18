@@ -151,6 +151,46 @@
       "picture": "https://upload.wikimedia.org/wikipedia/ru/2/24/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Resident_Evil_Village.jpg",
       "type": "shooter",
       "id": 20
+    },
+    {
+      "name": "Need for Speed: Most Wanted",
+      "description": "Need for Speed: Most Wanted — компьютерная игра серии Need for Speed в жанре аркадной автогонки, разработанная студией EA Canada и изданная компанией Electronic Arts для консолей, персональных компьютеров и мобильных телефонов в 2005 году",
+      "price": 10.99,
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/15/NFS-Most-Wanted-Front.jpg/274px-NFS-Most-Wanted-Front.jpg",
+      "type": "sport",
+      "id": 21
+    },
+    {
+      "name": "Need for Speed: Underground 2",
+      "description": "Need for Speed: Underground 2 — компьютерная игра серии Need for Speed в жанре аркадных автогонок, разработанная студией EA Black Box и изданная компанией Electronic Arts для игровых приставок, персональных компьютеров и мобильных телефонов в 2004 году. Игра является сиквелом Need for Speed: Underground",
+      "price": 12.99,
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/thumb/d/d0/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Need_for_Speed_Underground_2.jpg/640px-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Need_for_Speed_Underground_2.jpg",
+      "type": "sport",
+      "id": 22
+    },
+    {
+      "name": "NHL 22",
+      "description": "NHL 22 - это видеоигра-симулятор хоккея, разработанная EA Vancouver и опубликованная EA Sports. Это 31-й выпуск в серии видеоигр NHL, выпущенный для PlayStation 4, PlayStation 5, Xbox One и Xbox Series X / S 15 октября 2021 года.",
+      "price": 17.99,
+      "picture": "https://s1.gaming-cdn.com/images/products/9774/orig-fallback-v1/nhl-22-xbox-one-xbox-one-game-microsoft-store-cover.jpg?v=1645711019",
+      "type": "sport",
+      "id": 23
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "description": "Cyberpunk 2077 — компьютерная игра в жанре action-adventure в открытом мире, разработанная и изданная польской студией CD Projekt. Действие игры происходит в 2077 году в Найт-Сити, вымышленном североамериканском городе из вселенной Cyberpunk",
+      "price": 25.99,
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/b/bb/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B8%D0%B3%D1%80%D1%8B_Cyberpunk_2077.jpg",
+      "type": "rpg",
+      "id": 24
+    },
+    {
+      "name": "Ведьмак 3: Дикая Охота",
+      "description": "«Ведьма́к 3: Дикая Охота» — компьютерная игра в жанре action/RPG, разработанная польской студией CD Projekt RED. Выпущенная 19 мая 2015 года на Windows, PlayStation 4 и Xbox One, затем 15 октября 2019 года на Nintendo Switch, она является повествованием, продолжающим игры «Ведьмак» и «Ведьмак 2: Убийцы королей»",
+      "price": 26.99,
+      "picture": "https://cdn.akamai.steamstatic.com/steam/apps/292030/capsule_616x353.jpg?t=1646996408",
+      "type": "rpg",
+      "id": 25
     }
   ]
 }

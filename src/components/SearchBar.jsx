@@ -38,24 +38,45 @@ const SearchBar = () => {
   console.log(window.location.search);
 
   return (
-    <Box>
+    <Box
+      sx={{
+        display: "flex",
+        width: "100%",
+        justifyContent: "center",
+      }}
+    >
       <Paper
         sx={{
-          width: "300px",
-          m: 5,
+          width: "60%",
           display: "flex",
-          flexDirection: "column",
-          justifyContent: "flex-start",
-          p: 5,
+          flexDirection: "row",
+          justifyContent: "space-between",
+          p: 3,
           maxHeight: "50vh",
+          color: "white",
+          backgroundColor: "transparent",
         }}
       >
-        <Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexDirection: "row",
+          }}
+        >
           <FormControl>
-            <FormLabel id="demo-radio-buttons-group-label" sx={{ mb: 2 }}>
+            <FormLabel
+              id="demo-radio-buttons-group-label"
+              sx={{ mb: 1, color: "white" }}
+            >
               Categories
             </FormLabel>
             <RadioGroup
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                flexDirection: "row",
+              }}
               aria-labelledby="demo-radio-buttons-group-label"
               defaultValue="all"
               name="radio-buttons-group"
@@ -78,6 +99,7 @@ const SearchBar = () => {
           </FormControl>
         </Box>
         <TextField
+          className="searchBtn"
           sx={{ mt: 3 }}
           value={search}
           onChange={(e) => {
@@ -93,7 +115,6 @@ const SearchBar = () => {
               </InputAdornment>
             ),
           }}
-          variant="outlined"
         />
       </Paper>
     </Box>

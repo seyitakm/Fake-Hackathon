@@ -66,7 +66,7 @@ export default function Cart() {
   }
 
   const trHeadStyle = {
-    backgroundColor: "#666699 !important",
+    backgroundColor: "rgb(21, 20, 20) !important",
   };
   const navigate = useNavigate();
   return (
