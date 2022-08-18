@@ -221,6 +221,7 @@ body {
 .card--descr {
   width: 98%;
   height: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .card--img {
@@ -261,14 +262,16 @@ body {
 /* GAMES CARDS END */
 /* FOOTER  START */
 
+.footer__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   background-color: rgb(29, 28, 28);
+  margin-top: 1vw;
   width: 100%;
-  max-width: 80%;
-  margin: 0 auto;
-  margin-top: 50px;
-  border-radius: 15px;
-  /* box-shadow: #3e4970 0 10px 20px 5px; */
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -439,11 +442,52 @@ footer {
   justify-content: center;
   width: 100%;
 }
-/* .searchBtn {
+.searchBtn {
   border: 1px solid white !important;
   border-radius: 30px !important;
-} */
+}
 
-.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root:focus {
-  outline: none !important;
+.inner__appbar label,
+#hamburger {
+  z-index: 3;
+  display: none;
+}
+
+@media screen and (max-width: 666px) {
+  .inner__appbar label {
+    display: flex;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+  }
+
+  .inner__right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .auth {
+    display: none;
+  }
+
+  .main {
+    gap: 0;
+  }
+
+  footer {
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  .main {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }

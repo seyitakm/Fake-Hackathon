@@ -59,7 +59,7 @@ const GamesList = () => {
       </Box>
       <Stack spacing={2}>
         <Pagination
-          variant="outlined"
+          // variant="outlined"
           //   shape="rounded"
           sx={{ m: "0 auto", marginTop: "5%", backgroundColor: "white" }}
           color="success"
