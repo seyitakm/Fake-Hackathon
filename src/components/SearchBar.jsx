@@ -82,15 +82,27 @@ const SearchBar = () => {
               name="radio-buttons-group"
               onChange={(e) => fetchByParams("type", e.target.value)}
             >
-              <FormControlLabel value="all" control={<Radio />} label="All" />
-              <FormControlLabel value="rpg" control={<Radio />} label="RPG" />
               <FormControlLabel
+                className="category"
+                value="all"
+                control={<Radio />}
+                label="All"
+              />
+              <FormControlLabel
+                className="category"
+                value="rpg"
+                control={<Radio />}
+                label="RPG"
+              />
+              <FormControlLabel
+                className="category"
                 value="sport"
                 control={<Radio />}
                 label="Sport"
               />
 
               <FormControlLabel
+                className="category"
                 value="shooter"
                 control={<Radio />}
                 label="Shooter"

@@ -32,8 +32,8 @@ function Copyright(props) {
 
 const tiers = [
   {
-    title: "Free",
-    price: "0",
+    title: "Beginner",
+    price: "50",
     description: [
       "10 users included",
       "2 GB of storage",
@@ -46,7 +46,7 @@ const tiers = [
   {
     title: "Pro",
     subheader: "Most popular",
-    price: "15",
+    price: "150",
     description: [
       "20 users included",
       "10 GB of storage",
@@ -58,7 +58,7 @@ const tiers = [
   },
   {
     title: "Enterprise",
-    price: "30",
+    price: "300",
     description: [
       "50 users included",
       "30 GB of storage",
@@ -86,10 +86,17 @@ function PricingContent() {
           align="center"
           color="white"
           gutterBottom
+          sx={{ fontFamily: "impact" }}
         >
           Pricing
         </Typography>
-        <Typography variant="h5" align="center" color="white" component="p">
+        <Typography
+          variant="h5"
+          align="center"
+          color="white"
+          component="p"
+          sx={{ fontFamily: "impact" }}
+        >
           Quickly build an effective pricing table for your potential customers
           with this layout. It&apos;s built with default MUI components with
           little customization.
