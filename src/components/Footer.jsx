@@ -9,7 +9,7 @@ const Footer = () => {
             <h3 className="heading">About the store</h3>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#">Become a customer</a>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <a href="#">Return policy</a>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <a href="/contacts">Contact us</a>
               </li>
             </ul>
           </div>

@@ -39,9 +39,6 @@ const SearchBar = () => {
 
   return (
     <Box>
-      <div>
-        <button onClick={() => navigate("/cart")}>Cart</button>
-      </div>
       <Paper
         sx={{
           width: "300px",

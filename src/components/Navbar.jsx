@@ -15,6 +15,7 @@ const Navbar = () => {
           <RouterLink to="/products">Store</RouterLink>
           <RouterLink to="/subs">Subscriptions</RouterLink>
           <RouterLink to="/contacts">Contacts</RouterLink>
+          <RouterLink to="/cart">Cart</RouterLink>
         </div>
         <div className="auth">
           <RouterLink to="/signin">Sign in</RouterLink>
