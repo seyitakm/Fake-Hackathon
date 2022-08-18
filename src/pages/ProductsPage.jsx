@@ -8,7 +8,11 @@ const ProductsPage = () => {
   return (
     <Box>
       <SearchBar />
-      <GamesList />
+      <div className="homePageMain">
+        <div className="homePage">
+          <GamesList />
+        </div>
+      </div>
       <Footer />
     </Box>
   );

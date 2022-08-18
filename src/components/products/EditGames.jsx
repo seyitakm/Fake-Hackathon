@@ -38,12 +38,15 @@ const EditGames = () => {
   return (
     <Box
       sx={{
+        backgroundColor: "silver",
+        borderRadius: "20px",
         width: "40vw",
         margin: "0 auto",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
+        marginTop: "10%",
       }}
     >
       <Typography variant="h6" sx={{ m: 2 }}>

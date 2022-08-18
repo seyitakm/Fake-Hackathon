@@ -21,8 +21,10 @@ const HomePage = (item) => {
           <div></div>
         </div>
       </div>
-      <div className="homePage">
-        <GamesList />
+      <div className="homePageMain">
+        <div className="homePage">
+          <GamesList />
+        </div>
       </div>
       <Footer />
     </div>
