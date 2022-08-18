@@ -9,11 +9,11 @@
       "id": 1
     },
     {
-      "name": "Gran Turismo 7",
-      "description": "Gran Turismo 7 (commonly abbreviated as GT7) is a racing video game developed by Polyphony Digital and published by Sony Interactive Entertainment. It is the eighth major release, the fourteenth game overall in the Gran Turismo video game series, the second game to be released on the PlayStation 4 and the first on PlayStation 5.[1] The game was released on the 4th of March, 2022, on both consoles.",
-      "price": 15.99,
-      "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yZ7dpmjtHr1olhutHT57IFRh.png",
-      "type": "sport",
+      "name": "Cyberpunk 2077",
+      "description": "Cyberpunk 2077 — компьютерная игра в жанре action-adventure в открытом мире, разработанная и изданная польской студией CD Projekt. Действие игры происходит в 2077 году в Найт-Сити, вымышленном североамериканском городе из вселенной Cyberpunk",
+      "price": 25.99,
+      "picture": "https://upload.wikimedia.org/wikipedia/ru/b/bb/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B8%D0%B3%D1%80%D1%8B_Cyberpunk_2077.jpg",
+      "type": "rpg",
       "id": 2
     },
     {
@@ -177,11 +177,11 @@
       "id": 23
     },
     {
-      "name": "Cyberpunk 2077",
-      "description": "Cyberpunk 2077 — компьютерная игра в жанре action-adventure в открытом мире, разработанная и изданная польской студией CD Projekt. Действие игры происходит в 2077 году в Найт-Сити, вымышленном североамериканском городе из вселенной Cyberpunk",
-      "price": 25.99,
-      "picture": "https://upload.wikimedia.org/wikipedia/ru/b/bb/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B8%D0%B3%D1%80%D1%8B_Cyberpunk_2077.jpg",
-      "type": "rpg",
+      "name": "Gran Turismo 7",
+      "description": "Gran Turismo 7 (commonly abbreviated as GT7) is a racing video game developed by Polyphony Digital and published by Sony Interactive Entertainment. It is the eighth major release, the fourteenth game overall in the Gran Turismo video game series, the second game to be released on the PlayStation 4 and the first on PlayStation 5.[1] The game was released on the 4th of March, 2022, on both consoles.",
+      "price": 15.99,
+      "picture": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yZ7dpmjtHr1olhutHT57IFRh.png",
+      "type": "sport",
       "id": 24
     },
     {
