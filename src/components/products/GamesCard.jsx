@@ -13,7 +13,7 @@ export default function GamesCard({ item }) {
   console.log(user);
 
   return (
-    <div className="card">
+    <div onClick={() => navigate(`/more/${item.id}`)} className="card">
       <img className="card--img" src={item.picture} alt="" />
       <h3>{item.name}</h3>
       <div className="card--descr">${item.price}</div>
