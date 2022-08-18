@@ -516,7 +516,6 @@ footer {
 
   .inner__appbar input:checked ~ .inner__right{
     padding-top: 10vw;
-    /* height: 60vw; */
   }
 
 
