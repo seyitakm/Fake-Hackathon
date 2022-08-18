@@ -7,6 +7,9 @@ const Navbar = () => {
   return (
     <div className="appbar">
       <div className="inner__appbar">
+        <input type="checkbox" id="hamburger" />
+
+        <label for="hamburger">&#9776;</label>
         <div className="inner__logo">
           <h1 onClick={() => navigate("/")}>NIGHT-CITY</h1>
         </div>
