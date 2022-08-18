@@ -11,7 +11,7 @@ const GamesList = () => {
   console.log(searchParams);
 
   const [page, setPage] = useState(1);
-  const itemsPerPage = 5;
+  const itemsPerPage = 8;
   const count = Math.ceil(products.length / itemsPerPage);
 
   useEffect(() => {
