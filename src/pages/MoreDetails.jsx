@@ -28,7 +28,7 @@ const MoreDetails = () => {
           <div className="paymentButtons">
             <div className="paymentPrice">${productDetails.price}</div>
           </div>
-          <Button>BUY</Button>
+          <Button onClick={() => navigate("/paymentcart")}>BUY</Button>
         </div>
       </div>
     </div>

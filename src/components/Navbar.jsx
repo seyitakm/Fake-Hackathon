@@ -13,8 +13,10 @@ const Navbar = () => {
         <div className="inner__right">
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/products">Store</RouterLink>
-          <RouterLink to="/contacts">Contacts</RouterLink>
           <RouterLink to="/cart">Cart</RouterLink>
+          <RouterLink to="/subscribe">Subscriptions</RouterLink>
+
+          <RouterLink to="/contacts">Contacts</RouterLink>
         </div>
         <div className="auth">
           <RouterLink to="/signin">Sign in</RouterLink>

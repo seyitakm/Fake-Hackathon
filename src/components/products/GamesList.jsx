@@ -1,4 +1,5 @@
 import { Box, Pagination, TextField } from "@mui/material";
+import { Stack } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { useProducts } from "../../contexts/ProductContextProvider";
@@ -56,16 +57,17 @@ const GamesList = () => {
           <h3>Loading...</h3>
         )}
       </Box>
-
-      <Pagination
-        variant="outlined"
-        shape="rounded"
-        sx={{ m: "0 auto", bgcolor: "white" }}
-        color="primary"
-        count={count}
-        page={page}
-        onChange={handlePage}
-      />
+      <Stack spacing={2}>
+        <Pagination
+          variant="outlined"
+          //   shape="rounded"
+          sx={{ m: "0 auto", marginTop: "5%" }}
+          color="primary"
+          count={count}
+          page={page}
+          onChange={handlePage}
+        />
+      </Stack>
     </Box>
   );
 };
