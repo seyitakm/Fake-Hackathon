@@ -40,7 +40,13 @@ body {
   width: 100%;
   height: auto;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
+}
+
+.video2 {
+  width: 100%;
+  height: auto;
+  opacity: 70%;
 }
 
 .signup {
