@@ -2,6 +2,8 @@ import React from "react";
 import Footer from "../components/Footer";
 import GamesList from "../components/products/GamesList";
 import home from "../assets/img/home.mp4";
+import tv from "../assets/img/tv.mp4"
+import vid from "../assets/img/vid.mp4"
 import hb from "../assets/img/hb.jpg";
 import MainText from "../components/MainText";
 import SecondText from "../components/SecondText";
@@ -13,7 +15,12 @@ const HomePage = () => {
       <div className="video__container">
         <video className="video" src={home} autoPlay loop muted></video>
       </div>
-      <SecondText />
+
+      {/* <video className="video2" src={tv} autoPlay loop muted></video> */}
+      <video className="video2" src={vid} autoPlay loop muted></video>
+      
+      
+      {/* <SecondText /> */}
       <div className="home__page">
         <div className="first__block">
           <img className="home__img" src="" alt="" />
